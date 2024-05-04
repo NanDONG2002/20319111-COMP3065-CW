@@ -1,0 +1,18 @@
+DEEPSORT:
+  # 指定用于重新识别（Re-Identification）的模型的检查点文件路径，这是DeepSORT算法中用于跟踪对象的重要组件之一。
+  REID_CKPT: "deep_sort/deep_sort/deep/checkpoint/ckpt.t7"
+  # 定义最大的重新识别距离。如果两个特征向量之间的欧几里德距离小于此值，则认为它们来自同一对象。
+  MAX_DIST: 0.2
+  # 设置最小置信度阈值。低于此阈值的检测结果可能会被过滤掉，以提高跟踪的准确性。
+  MIN_CONFIDENCE: 0.3
+  # 设置非极大值抑制（Non-Maximum Suppression）的最大重叠率。这控制了在同一区域检测到的多个对象之间的选择，以避免重叠或重复的跟踪
+  NMS_MAX_OVERLAP: 0.5
+  # 定义最大的IoU（Intersection over Union）距离。用于在过滤重复跟踪时考虑检测框之间的重叠程度。
+  MAX_IOU_DISTANCE: 0.7
+  # 定义最大的跟踪时长（以帧数为单位）。如果对象在此时间内未被重新检测到，则跟踪将被丢弃。
+  MAX_AGE: 70
+  # 指定初始帧中至少需要出现的检测次数，以启动新的跟踪。
+  N_INIT: 3
+  # 设置最大的最近邻（Nearest Neighbors）搜索预算。这影响了在重新识别阶段的计算复杂度和性能。
+  NN_BUDGET: 100
+  
