@@ -1,8 +1,9 @@
 ## Introduction
 
-The project generates pedestrian detection videos in the yolov5_deepsort/output folder.
 
-You can download and run the required environment through the link below.
+This project utilizes DeepSort and YOLOv5 version 7.0 for pedestrian detection and tracking. The project's result videos can be found in folder "yolov5_deepsort/output"
+
+You can download the required environment to run the python project through the link below.
 
 [Download Environment](https://nottinghamedu1-my.sharepoint.com/:f:/g/personal/scynd2_nottingham_edu_cn/Er2Ed7Ki__tJgiA4NTzQkJcBHob1lv_3IHSOPXUrngyRew?e=YRtjoy)
 
