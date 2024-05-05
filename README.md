@@ -1,7 +1,7 @@
 ## Introduction
 
 
-This project utilizes DeepSort and YOLOv5 version 7.0 for pedestrian detection and tracking. The project's result videos can be found in folder "yolov5_deepsort/output"
+This project utilizes DeepSort and YOLOv5 version 7.0 for pedestrian detection and tracking. The project's result videos can be found in folder "yolov5_deepsort/output". The project environment includes the following libraries: torch, logging, subprocess, urllib, pathlib, requests, numpy, yaml, easydict, cv2, argparse, contextlib, platform, and json. You can configure it yourself or download the environment directly.
 
 You can download the required environment to run the python project through the link below.
 
